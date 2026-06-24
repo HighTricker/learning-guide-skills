@@ -1,0 +1,5 @@
+# 保证 shell 脚本始终用 LF 行尾，避免 Windows 的 CRLF 导致 Unix/macOS 下 install.sh 无法执行
+*.sh text eol=lf
+
+# 文本文件按平台自动处理行尾，仓库内统一存 LF
+* text=auto
